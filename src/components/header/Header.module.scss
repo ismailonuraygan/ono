@@ -1,5 +1,43 @@
 .container {
   flex: 1;
-  max-height: 100px;
+  max-height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 40px;
   border-bottom: 1px solid #eaeaea;
+}
+.userName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.welcome {
+  font-weight: 500;
+}
+
+.date {
+  font-weight: 400;
+  font-size: var(--primaryTextFontSize);
+  line-height: 21px;
+  color: #ada7a7;
+}
+
+.rightButtons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }

@@ -2,25 +2,29 @@
 @import "./styles/variables/variables";
 @import "./styles/variables/font";
 
-
 h1 {
   font-size: 24px;
 }
 
-h2{
+h2 {
   font-size: 18px;
 }
 
-h3{
+h3 {
   font-size: 16px;
-  color: var(--primaryTextFontColor)
+  color: var(--primaryTextFontColor);
 }
 
-h4{
+h4 {
   font-size: 13px;
 }
 
-h1,h2,h3,h4, div, p{
+h1,
+h2,
+h3,
+h4,
+div,
+p {
   font-family: var(--primaryFontFamily) !important;
 }
 
