@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.audienceSearch {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 52px;
+  padding: 0 20px;
+  border-radius: 8px;
+  flex-grow: 1;
+  border: 1px solid #eaeaea;
+  input {
+    border: none;
+  }
+}
+
+.filterInputWrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.select {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  width: 324px;
+}
+
+.formControl {
+  width: 162px;
+}

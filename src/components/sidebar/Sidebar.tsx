@@ -1,5 +1,5 @@
 import React from "react";
-import OnoLogo from "./OnoLogo";
+import OnoLogo from "./components/OnoLogo";
 import classes from "./Sidebar.module.scss";
 import SearchIcon from "../../icons/SearchIcon";
 import ContentItemList from "./components/ContentItemList";
