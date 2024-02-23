@@ -38,6 +38,7 @@ const CustomSelect = ({ label, options, onChange, value }: IProps) => {
         label={label}
         onChange={handleChange}
       >
+        <MenuItem value={""}>Temizle</MenuItem>
         {options.map((option) => {
           return <MenuItem value={option}>{option}</MenuItem>;
         })}
