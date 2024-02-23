@@ -5,19 +5,20 @@ import {
   MenuItem,
   SelectChangeEvent,
 } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 import classes from "./FilterBar.module.scss";
 
 export interface IProps {
   label: string;
   options: string[];
+  onChange: React.Dispatch<React.SetStateAction<any>>;
+  value: string;
 }
 
-const CustomSelect = ({ label, options }: IProps) => {
-  const [value, setValue] = useState<string>("");
-
+const CustomSelect = ({ label, options, onChange, value }: IProps) => {
   const handleChange = (event: SelectChangeEvent) => {
-    setValue(event.target.value as string);
+    console.log("on Change");
+    onChange(event.target.value as string);
   };
 
   return (

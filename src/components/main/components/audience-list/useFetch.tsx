@@ -1,9 +1,9 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 type TStatus = "passive" | "active";
 
-interface IData {
+export interface IData {
   id: number;
   name: string;
   tags: string[];
